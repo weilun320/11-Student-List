@@ -1,0 +1,40 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, sans-serif;
+}
+
+img:hover {
+  transform: translateY(-30px);
+}
+
+button {
+  background-color: #2fb195;
+  border-radius: 30px;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  margin-bottom: 10px;
+  padding: 15px;
+  width: 350px;
+}
+
+button:hover {
+  background-color: #238670;
+}
+
+#view-students {
+  background-color: transparent;
+  border: 2px solid #000;
+  color: #000;
+}
+
+#view-students:hover {
+  background-color: #c7c7c7;
+}
